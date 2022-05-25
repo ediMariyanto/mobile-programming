@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Listview">
         <activity
+            android:name=".RecyclerViewListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ListViewActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
